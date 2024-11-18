@@ -1,0 +1,526 @@
+{
+    "credits": "Binnette",
+    "minzoom": 14,
+    "lineRendering": [
+      {
+        "width": 1,
+        "color": "blue"
+      }
+    ],
+    "credits:uid": 918586,
+    "id": "need_image",
+    "description": {
+      "en": "This map will show all Points Of Interest that needs an image"
+    },
+    "title": {
+      "render": {
+        "en": "POI that needs an image"
+      },
+      "mappings": [
+        {
+          "if": "amenity=cinema",
+          "then": {
+            "en": "Cinema {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/3/31/Cinema-16.svg/100px-Cinema-16.svg.png"
+        },
+        {
+          "if": "amenity=theatre",
+          "then": {
+            "en": "Theatre {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/e/eb/Theatre-16.svg/100px-Theatre-16.svg.png"
+        },
+        {
+          "if": "tourism=artwork",
+          "then": {
+            "en": "{artwork_type} {name}"
+          },
+          "icon": "https://mapcomplete.org/assets/themes/artwork/artwork.svg"
+        },
+        {
+          "if": "amenity=public_bookcase",
+          "then": {
+            "en": "Bookcase {name}"
+          },
+          "icon": "https://mapcomplete.org/assets/themes/bookcases/bookcase.svg"
+        },
+        {
+          "if": "amenity=give_box",
+          "then": {
+            "en": "give_box {name}"
+          },
+          "icon": "https://mapcomplete.org/assets/themes/bookcases/bookcase.svg"
+        },
+        {
+          "if": "amenity=telephone",
+          "then": {
+            "en": "telephone"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/f/fa/Telephone.16.svg/100px-Telephone.16.svg.png"
+        },
+        {
+          "if": "amenity=clock",
+          "then": {
+            "en": "clock"
+          },
+          "icon": "https://mapcomplete.org/assets/layers/clock/clock.svg"
+        },
+        {
+          "if": "amenity=place_of_worship",
+          "then": {
+            "en": "Worship {religion}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/0/04/Place-of-worship-16.svg/100px-Place-of-worship-16.svg.png"
+        },
+        {
+          "if": "historic~*",
+          "then": {
+            "en": "{historic} {name}"
+          },
+          "icon": "https://mapcomplete.org/assets/layers/memorial/memorial.svg"
+        },
+        {
+          "if": "tourism=museum",
+          "then": {
+            "en": "Museum {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/a/a9/Museum-16.svg/100px-Museum-16.svg.png"
+        },
+        {
+          "if": "amenity=townhall",
+          "then": {
+            "en": "Townhall {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/e/e0/Townhall.svg/100px-Townhall.svg.png"
+        },
+        {
+          "if": "amenity=library",
+          "then": {
+            "en": "Library {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/3/3b/Library-16.svg/100px-Library-16.svg.png"
+        },
+        {
+          "if": "amenity=charging_station",
+          "then": {
+            "en": "Charging Station {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/0/05/Charging_station.svg/100px-Charging_station.svg.png"
+        },
+        {
+          "if": "amenity=clinic",
+          "then": {
+            "en": "Clinic {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/7/72/Clinic-16.svg/100px-Clinic-16.svg.png"
+        },
+        {
+          "if": "amenity=hospital",
+          "then": {
+            "en": "Hospital {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/4/4a/Hospital-16.svg/100px-Hospital-16.svg.png"
+        },
+        {
+          "if": "amenity=arts_centre",
+          "then": {
+            "en": "Arts Centre {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/5/59/Arts_centre.svg/100px-Arts_centre.svg.png"
+        },
+        {
+          "if": "amenity=casino",
+          "then": {
+            "en": "Casino {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/8/85/Casino-16.svg/100px-Casino-16.svg.png"
+        },
+        {
+          "if": "amenity=conference_centre",
+          "then": {
+            "en": "Conference Centre {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/4/4f/Conference_centre.svg/100px-Conference_centre.svg.png"
+        },
+        {
+          "if": "amenity=events_venue",
+          "then": {
+            "en": "Events Venue {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/e/e3/Events_venue.svg/100px-Events_venue.svg.png"
+        },
+        {
+          "if": "amenity=exhibition_centre",
+          "then": {
+            "en": "Exhibition Centre {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/0/0a/Exhibition_centre.svg/100px-Exhibition_centre.svg.png"
+        },
+        {
+          "if": "amenity=music_venue",
+          "then": {
+            "en": "Music Venue {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/2/21/Music_venue.svg/100px-Music_venue.svg.png"
+        },
+        {
+          "if": "amenity=stage",
+          "then": {
+            "en": "Stage {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/0/08/Stage.svg/100px-Stage.svg.png"
+        },
+        {
+          "if": "amenity=baking_oven",
+          "then": {
+            "en": "Baking Oven {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/c/c6/Baking_oven.svg/100px-Baking_oven.svg.png"
+        },
+        {
+          "if": "building=religious",
+          "then": {
+            "en": "Religious Building {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/0/04/Place-of-worship-16.svg/100px-Place-of-worship-16.svg.png"
+        },
+        {
+          "if": "building=cathedral",
+          "then": {
+            "en": "Cathedral {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/b/b9/Cathedral.svg/100px-Cathedral.svg.png"
+        },
+        {
+          "if": "building=chapel",
+          "then": {
+            "en": "Chapel {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/6/66/Chapel.svg/100px-Chapel.svg.png"
+        },
+        {
+          "if": "building=church",
+          "then": {
+            "en": "Church {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/2/2d/Church.svg/100px-Church.svg.png"
+        },
+        {
+          "if": "building=monastery",
+          "then": {
+            "en": "Monastery {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/4/48/Monastery.svg/100px-Monastery.svg.png"
+        },
+        {
+          "if": "building=mosque",
+          "then": {
+            "en": "Mosque {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/6/63/Mosque.svg/100px-Mosque.svg.png"
+        },
+        {
+          "if": "building=shrine",
+          "then": {
+            "en": "Shrine {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/a/a4/Shrine.svg/100px-Shrine.svg.png"
+        },
+        {
+          "if": "building=synagogue",
+          "then": {
+            "en": "Synagogue {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/8/88/Synagogue.svg/100px-Synagogue.svg.png"
+        },
+        {
+          "if": "building=temple",
+          "then": {
+            "en": "Temple {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/9/93/Temple.svg/100px-Temple.svg.png"
+        },
+        {
+          "if": "building=bakehouse",
+          "then": {
+            "en": "Bakehouse {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/5/54/Bakehouse.svg/100px-Bakehouse.svg.png"
+        },
+        {
+          "if": "building=stadium",
+          "then": {
+            "en": "Stadium {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/7/77/Stadium.svg/100px-Stadium.svg.png"
+        },
+        {
+          "if": "leisure=ice_rink",
+          "then": {
+            "en": "Ice Rink {name}"
+          },
+          "icon": "https://wiki.openstreetmap.org/w/images/thumb/5/5e/Ice_rink.svg/100px-Ice_rink.svg.png"
+        }
+      ]
+    },
+    "source": {
+      "osmTags": {
+        "or": [
+          {
+            "and": [
+              "tourism=artwork",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=cinema",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=public_bookcase",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=theatre",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=give_box",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=telephone",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=clock",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=place_of_worship",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "historic~*",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "tourism=museum",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=townhall",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=library",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=charging_station",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=clinic",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=hospital",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=arts_centre",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=casino",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=conference_centre",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=events_venue",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=exhibition_centre",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=music_venue",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=stage",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "amenity=baking_oven",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=religious",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=cathedral",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=chapel",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=church",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=monastery",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=mosque",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=shrine",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=synagogue",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=temple",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=bakehouse",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "building=stadium",
+              "panoramax="
+            ]
+          },
+          {
+            "and": [
+              "leisure=ice_rink",
+              "panoramax="
+            ]
+          }
+        ]
+      }
+    },
+    "name": {
+      "en": "POI that needs an image"
+    },
+    "tagRenderings": [
+      "images_no_blur",
+      {
+        "question": {
+          "en": "Does it have a name?"
+        },
+        "render": {
+          "en": "name={name}"
+        },
+        "freeform": {
+          "key": "name"
+        },
+        "id": "name"
+      },
+      "description",
+      "wikipedia"
+    ],
+    "pointRendering": [
+      {
+        "location": [
+          "centroid",
+          "point"
+        ],
+        "iconBadges": [
+          {
+            "if": "_favourite=yes",
+            "then": "circle:white;heart:red"
+          }
+        ],
+        "marker": [
+          {
+            "icon": "square_rounded",
+            "color": "red"
+          },
+          {
+            "icon": "https://mapcomplete.org/assets/layers/id_presets/fas-camera-retro.svg"
+          }
+        ]
+      }
+    ]
+  }
